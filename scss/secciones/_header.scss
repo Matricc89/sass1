@@ -1,8 +1,22 @@
 header {
-    background-color: bisque;
-    height: 20vh;
-    li {
-      list-style: none;
-      text-align: center;
+  background-color: bisque;
+  height: 100px;
+  li {
+    list-style: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    padding-top: 35px;
+    color: red;
+    text-decoration: underline;
+  }
+}
+
+@media(max-width: 550px) {
+  header{
+    background-color: rgb(136, 136, 36);
+    li{
+      padding-top: 30px;
     }
   }
+}
