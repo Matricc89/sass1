@@ -1,0 +1,32 @@
+.main-index {
+  background-color: burlywood;
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  .card {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    h2 {
+      font-family: sans-serif;
+      &:hover {
+        color: aqua;
+        background-color: blueviolet;
+      }
+    }
+  }
+}
+
+@media(min-width:550px){
+  .main-index{
+    flex-direction: row;
+    .card{
+      h2{
+        &:hover{
+          background-color: azure;
+        }
+      }
+    }
+  }
+}
