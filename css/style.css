@@ -45,7 +45,7 @@ header {
 
 footer {
   background-color: aqua;
-  min-height: 30vh; }
+  min-height: 50vh; }
   footer form {
     text-align: center;
     display: flex;
